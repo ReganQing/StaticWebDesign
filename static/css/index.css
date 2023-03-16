@@ -1,8 +1,11 @@
 /* 基础设置 */
 .container {
-    width: 1190px;
-    margin: 0 auto;
+  max-width: 1190px;
+  margin: 0 auto;
 }
+
+
+
 /* #region顶部导航条start */
 .topbar {
     height: 30px;
@@ -186,7 +189,6 @@
 .main-content .banner {
     width:690px;
 
-    background-color: seagreen;
     margin: 0 10px;
 }
 .main-content .banner img {
