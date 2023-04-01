@@ -49,14 +49,16 @@
         <div class="container clearfix">
             <!-- 左侧logo区 -->
             <div class="mark leftfix">
-                <img src="../static/images/logo.png">
+                <img src="../static/images/logo.png" alt="logo">
             </div>
             <!-- 右侧搜索区 -->
             <div class="search rightfix">
-                <form action="#">
-                    <input type="text">
-                    <button type="submit"></button>
+                <label for="search"></label>
+                <form action="#" id="search">
+                    <label><input type="text" placeholder="搜索"></label>
+                    <button type="submit" aria-label="btn-search"></button>
                 </form>
+            
             </div>
         </div>
     </div>
@@ -519,7 +521,7 @@
 
             <!-- 轮播图 -->
             <div class="banner leftfix">
-                <img src="../static/images/tree.jpg">
+                <img src="../static/images/tree.jpg" alt="tree">
             </div>
             <!-- 右边区域 -->
             <div class="right-side-bar leftfix">
